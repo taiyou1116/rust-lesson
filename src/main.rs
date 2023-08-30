@@ -1,3 +1,4 @@
+mod debug;
 mod enums;
 mod error_handling;
 mod generics;
@@ -8,8 +9,7 @@ mod structs;
 mod traits;
 mod unit_test;
 mod vars;
-extern crate lib_demo;
-mod debug;
+use lib_demo;
 
 fn main() {
     vars::run();
